@@ -1,0 +1,176 @@
+ *{
+  margin:0;
+  padding:0;
+ }
+ #gamename{
+  height:130px;
+  background-color: black;  
+  display: flex;
+  justify-content: center;
+}
+#text{
+  text-align: center;
+  color: white;
+  width:100%;
+  margin-top: 45px;
+}
+ /* ////// */
+
+ .choices{
+  height:165px;
+  width:165px;
+ display: flex;
+ align-items: center;
+ margin-top:50px;
+ gap:50px;
+ margin-left: 22%;
+ 
+ }
+ #rock:hover{
+  opacity: 0.5;
+  cursor: pointer;
+ }
+ #paper:hover{
+  opacity: 0.5;
+  cursor: pointer;
+ }
+ #scissors:hover{
+  opacity: 0.5;
+  cursor: pointer;
+ }
+ img{
+   height:200px;
+  width:200px; 
+  object-fit: cover;
+  border-radius: 50%;
+ }
+ .scoreborad{
+  height:100px;
+  width:300px;
+  display: flex;
+  text-align: center;
+  margin-left: 520px;
+  margin-top: 80px;
+  gap: 190px;
+ }
+ #yourscore{
+  margin-bottom: 20px;
+  font-size: xx-large;
+ }
+ #computerscore{
+  margin-bottom: 20px;
+  font-size: xx-large;
+ }
+ #you{
+  font-size: x-large;
+  margin-left: 7px;
+  
+ }
+ #com{
+  font-size: x-large;
+  margin-left: 9px;
+  
+ }
+ #msg{
+  font-size: larger;
+  display: flex;
+  background-color:black;
+  align-items: center;
+  justify-content: center;
+ border: none;
+  color:white;
+  height:60px;
+  width:330px;
+  border-radius: 30px;
+  margin-top: 35px;
+  text-align: center;
+  margin-left: 520px;
+ }
+
+
+ /* media queeryies */
+ @media (max-width:600px){
+  #gamename{
+    height:11vh;
+   
+    
+  }
+  #text{
+    font-size: 25px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 28px;
+  }
+  .choices{
+    height:10vh;
+    width:10vw;
+   display: flex;
+   align-items: center;
+   margin-top:9vh;
+   gap:18px;
+   margin-left:17px;
+   
+   }
+  img{
+    height:14vh;
+    width:27vw;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  #rock:active, #paper:active, #scissors:active {
+    opacity: 0.7;
+    transform:scale(1);
+}
+.scoreborad{
+  height:10vh;
+  width:300vw;
+  display: flex;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 80px;
+  gap: 79px;
+ }
+ #yourscore{
+  margin-bottom: 20px;
+  font-size: x-large;
+ }
+ #computerscore{
+  margin-bottom: 20px;
+  font-size: x-large;
+ }
+ #you{
+  font-size: x-large;
+  margin-left: 7px;
+  
+ }
+ #com{
+  font-size: x-large;
+  margin-left: 9px;
+  
+ }
+ #msg{
+  font-size: large;
+  display: flex;
+  background-color:black;
+  align-items: center;
+  justify-content: center;
+ border: none;
+  color:white;
+  height:7vh;
+  width:50vw;
+  border-radius: 30px;
+  margin-top: 35px;
+  text-align: center;
+  margin-left: 77px;
+ }
+  }
+  
+  @media (min-width: 600px) and (max-width: 900px){
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+  }
+
+ 
